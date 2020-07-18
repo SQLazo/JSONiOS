@@ -13,6 +13,11 @@
 		B16EC18624C2718E0013C0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16EC18424C2718E0013C0B2 /* Main.storyboard */; };
 		B16EC18824C2719E0013C0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16EC18724C2719E0013C0B2 /* Assets.xcassets */; };
 		B16EC18B24C2719E0013C0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16EC18924C2719E0013C0B2 /* LaunchScreen.storyboard */; };
+		B16EC19524C284CB0013C0B2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16EC19424C284CB0013C0B2 /* Users.swift */; };
+		B187060724C2B10300DEAABD /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187060624C2B10300DEAABD /* UserViewController.swift */; };
+		B1FF726224C2907C00E85E45 /* BuscarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF726124C2907C00E85E45 /* BuscarViewController.swift */; };
+		B1FF726424C290AB00E85E45 /* Peliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF726324C290AB00E85E45 /* Peliculas.swift */; };
+		B1FF726624C29F4B00E85E45 /* AgregarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF726524C29F4B00E85E45 /* AgregarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B16EC18724C2719E0013C0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16EC18A24C2719E0013C0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16EC18C24C2719E0013C0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16EC19424C284CB0013C0B2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		B187060624C2B10300DEAABD /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		B1FF726124C2907C00E85E45 /* BuscarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarViewController.swift; sourceTree = "<group>"; };
+		B1FF726324C290AB00E85E45 /* Peliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peliculas.swift; sourceTree = "<group>"; };
+		B1FF726524C29F4B00E85E45 /* AgregarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				B16EC18724C2719E0013C0B2 /* Assets.xcassets */,
 				B16EC18924C2719E0013C0B2 /* LaunchScreen.storyboard */,
 				B16EC18C24C2719E0013C0B2 /* Info.plist */,
+				B16EC19424C284CB0013C0B2 /* Users.swift */,
+				B1FF726124C2907C00E85E45 /* BuscarViewController.swift */,
+				B1FF726324C290AB00E85E45 /* Peliculas.swift */,
+				B1FF726524C29F4B00E85E45 /* AgregarViewController.swift */,
+				B187060624C2B10300DEAABD /* UserViewController.swift */,
 			);
 			path = JSONRESTful;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FF726624C29F4B00E85E45 /* AgregarViewController.swift in Sources */,
+				B187060724C2B10300DEAABD /* UserViewController.swift in Sources */,
+				B1FF726424C290AB00E85E45 /* Peliculas.swift in Sources */,
+				B1FF726224C2907C00E85E45 /* BuscarViewController.swift in Sources */,
+				B16EC19524C284CB0013C0B2 /* Users.swift in Sources */,
 				B16EC18324C2718E0013C0B2 /* ViewController.swift in Sources */,
 				B16EC17F24C2718E0013C0B2 /* AppDelegate.swift in Sources */,
 				B16EC18124C2718E0013C0B2 /* SceneDelegate.swift in Sources */,
